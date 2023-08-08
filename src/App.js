@@ -1,23 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import ColorIncrease from './components/ColorIncrease';
+import CheckList from './components/CheckList';
+import Highlight from './components/Highlight';
+import Bubbles from './components/Bubbles';
+import Bubbles2 from './components/Bubbles2';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <ColorIncrease/>
+      <CheckList/>
+      <Highlight/>
+      <Bubbles/>
+      <Bubbles2/>
     </div>
   );
 }
